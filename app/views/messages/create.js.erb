@@ -1,0 +1,4 @@
+<%- if @message.save %>
+    $('#message').prepend("<p><strong>message:</strong> <%= @message.content %></p>");
+
+<% end %>

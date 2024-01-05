@@ -1,0 +1,6 @@
+<!-- app/views/messages/show.html.erb -->
+<h1>Message Details</h1>
+
+<p><strong>From:</strong> <%= @message.sender.email %></p>
+<p><strong>To:</strong> <%= @message.recipient.email %></p>
+<p><strong>Content:</strong> <%= @message.content %></p>
